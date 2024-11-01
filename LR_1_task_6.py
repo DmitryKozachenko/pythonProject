@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
-from utilities import visualize_classifier  # Переконайтеся, що utilities.py є в папці проекту
+from utilities import visualize_classifier
 
 # Завантаження даних
-input_file = 'data_multivar_nb.txt'  # Додайте цей файл у папку проекту
+input_file = 'data_multivar_nb.txt'
 data = np.loadtxt(input_file, delimiter=',')
 X, y = data[:, :-1], data[:, -1]
 

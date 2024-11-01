@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn import linear_model
 import matplotlib.pyplot as plt
-from utilities import visualize_classifier  # Потрібно скопіювати utilities.py до папки проекту
+from utilities import visualize_classifier
 
 # Вхідні дані
 X = np.array([[3.1, 7.2], [4, 6.7], [2.9, 8], [5.1, 4.5],
